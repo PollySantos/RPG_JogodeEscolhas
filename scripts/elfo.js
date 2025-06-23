@@ -1,7 +1,7 @@
 function nivelUmElfo() {
   while (question != 1 || question != 2) {
     var question = prompt(
-      "1. acha que os lacaios estavam mentindo\n 2. Como não tem nada para fazer, decide descobrir se é verdade "
+      "1. acha que os lacaios estavam mentindo\n2. Como não tem nada para fazer, decide descobrir se é verdade "
     );
 
     if (question == 1) {
