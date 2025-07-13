@@ -1,7 +1,7 @@
 function nivelUmCavaleiro() {
   while (question != 1 || question != 2) {
     var question = prompt(
-      '1. Pega a esquerda\n 2. Pega a direita'
+      '1. Pega a esquerda\n2. Pega a direita'
     );
 
     if (question == 1) {

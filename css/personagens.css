@@ -113,3 +113,43 @@ footer {
   justify-content: center;
 }
 }
+
+@media (max-width: 600px) {
+  .displayInicio,
+  .displayPersonagem,
+  .displayPersonagens {
+    width: 90%;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .texto-principal {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .personagens ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .personagens img {
+    width: 6rem;
+    height: auto;
+  }
+
+  .rodape {
+    font-size: 12px;
+  }
+
+  button {
+    width: 100%;
+    font-size: 1rem;
+  }
+}

@@ -1,7 +1,7 @@
 function nivelDoisElfo() {
   while (question != 1 || question != 2) {
     var question = prompt(
-      "1. Segue pelas árvores onde tem dominio e a nevoa está densa\n 2) segue pelo rio, onde a vista um barco"
+      "1. Segue pelas árvores onde tem dominio e a nevoa está densa\n 2. segue pelo rio, onde a vista um barco"
     );
 
     if (question == 1) {
